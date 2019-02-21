@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+
+}
+body {
+    background-image: url(../images/positive.png);
+    
+
+}
+/* .box {
+    background-size: 900, 800;
+   
+} */
+
+.container {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr;
+    grid-template-rows: 1fr 2fr 1fr 1fr 1fr;
+    Background-color: White;
+    Width: 1000px;
+    height: auto;
+    background-color: violet;
+    margin: 0px 10% auto 12%;
+    padding:0px 10px 0px;
+    
+     
+}
+header {
+    background-color: white;
+    padding-top: 0px;
+    padding-bottom: 15x;
+    margin-top: -8px;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    
+
+}
+  
+.name {
+    width: 300px;
+    height: 200px;
+    background-color:lightgreen;
+    margin: 0 auto 0 12%;
+    font-size: 25px;
+    /* padding-top: 3px; */
+    padding-bottom: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+   
+    
+}  
+.about_me {
+    
+    grid-column-start: 2;
+    grid-column-end: 5;
+    /* grid-row: 1 / span 1; */
+    
+    color: black;
+   
+}
+.profile {
+    
+    grid-column: 2 /span 1;
+    grid-row: 2 /span 1;
+    margin: 0px 10px 0px;
+    border-top-style: solid;
+    border-top-color: black;
+    padding-top: 20px;
+    /* background-image: url(./assets/images/profile.jpg);
+    width: 150px;
+    height: auto; */
+}
+.one_para {
+    grid-column: 3/ span 3;
+    grid-row: 2 /span 1;
+    border-top-style: solid;
+    border-top-color: black;
+    margin-left: -10px;
+
+
+}
+.two_para {
+    grid-column: 2/ span 4;
+    grid-row: 3 /span 1;
+    padding-left: 10px;
+}
+.three_para {
+    grid-column: 2/ span 4;
+    grid-row: 4 /span 1;
+    padding-left: 10px;
+}
+
+/* nav {
+    border-bottom: 1px solid #555;
+
+} */
+li {
+    display: inline;
+    
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    float: right;
+  }
+li a:hover {
+    background-color: #555;
+    color: white;
+  }
+  li a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+
+ footer {
+     border-top-color: rgb(35, 199, 221);
+     border-top-style: 2px;
+     background-color: gray;
+     padding-top: 5px;
+     padding-bottom: 5px;
+     text-align: center;
+     margin-left: 12%;
+     margin-right: 14%;
+ }
